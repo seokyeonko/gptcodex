@@ -1,0 +1,1001 @@
+{
+  "cards": [
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "macro_presets_open_application_win",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "openFileFolder": {
+          "appName": "Google Chrome",
+          "isFolderMode": false,
+          "path": ""
+        },
+        "repeatPeriod": 0,
+        "type": "OPEN_FILE_FOLDER"
+      },
+      "name": "ASSIGNMENT_NAME_OPEN_APPLICATION",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 65540
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 3000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://outlook.office.com/calendar/view/week"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://www.notion.so/TBD-PM-3-c3de0b9fee6249af97abe803954f96d6"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://www.notion.so/s-750d80aa7fd74200a60eb6b961dd4eab"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://chatgpt.com/ "
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://calendar.google.com/calendar/u/0/r?tab=rc"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_google_chrome",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://flex.team/home"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1000
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    }
+  ],
+  "categories": [],
+  "description": "친구들을 간단하게 확인해보세요",
+  "iconPath": "",
+  "id": "0ad8b870-c008-4ede-9c86-7e3fa26b65a5",
+  "lastEditTimestamp": "1721354718647",
+  "name": "work",
+  "originType": "SHARED",
+  "platform": "WIN",
+  "predefinedIdRef": "",
+  "restrictedRegions": [],
+  "specificRegions": [],
+  "state": "ACTIVE",
+  "usageCount": 0
+}
